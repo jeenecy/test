@@ -1,0 +1,113 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+ul,ol{list-style:none;}
+a{text-decoration: none;}
+img{vertical-align: top;}
+
+
+html,body{width:100%;
+		  height:100%;}
+
+body{ display:flex;
+		  flex-direction:column;}
+		  
+nav{width:7.5rem;
+	height:0.88rem;
+	background-color:#161618;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 0.27rem;}
+
+nav a img{width:0.18rem;
+		  height:0.32rem;}	
+
+nav h3{font-size:0.34rem;
+	   color:#fff;}
+
+nav a{color:#cccccc;}
+
+main{width:7.5rem;
+	 }
+
+main section{width:7.5rem;
+			 height:12.06rem;
+			 display:flex;
+			 flex-direction: column;}
+
+main section .top{width:7.5rem;
+				 height:0.5rem;
+				 background-color: #f2f2f2;
+				 padding:0 0.32rem;
+				 display:flex;
+				 justify-content:space-between;
+				 align-content: center;
+				 align-items: center;}
+				 
+main section .top span{font-size:0.24rem;
+					   color:#b6b6b6;}
+/*链接区域*/								
+main section .ula{height:3.62rem;
+				  display:flex;
+				  flex-wrap:wrap;
+				  align-content:space-around;
+				  border:0.01rem solid #e6e6e6;}
+				  
+main section .ula li{width:33.33%;
+					 height:1.22rem;
+					 display:flex;
+					 flex-direction:column;
+					 align-items:center;
+					 }				
+main section .ula li i{font-size:0.54rem!important;}
+	
+main section .ula li span{font-size: 0.26rem;
+							color:#878787;
+							margin-top:0.42rem;}
+
+main section .ulb{height:3.62rem;
+				  display:flex;
+				  flex-wrap:wrap;
+				  align-content:space-around;
+				  border:0.01rem solid #e6e6e6;}
+				  
+main section .ulb li{width:33.33%;
+					 height:1.22rem;
+					 display:flex;
+					 flex-direction:column;
+					 align-items:center;
+					 }				
+main section .ulb li i{font-size:0.54rem!important;}
+	
+main section .ulb li span{font-size: 0.26rem;
+							color:#878787;
+							margin-top:0.42rem;}
+main section .ulc{height:3.62rem;
+				  display:flex;
+				  flex-wrap:wrap;
+				  align-content:space-around;
+				  border:0.01rem solid #e6e6e6;}
+				  
+main section .ulc li{width:33.33%;
+					 height:1.22rem;
+					 display:flex;
+					 flex-direction:column;
+					 align-items:center;
+					 }				
+main section .ulc li i{font-size:0.54rem!important;}
+	
+main section .ulc li span{font-size: 0.26rem;
+							color:#878787;
+							margin-top:0.42rem;}
+							
+
+main section .bottom{width:7.5rem;
+				 height:0.5rem;
+				 background-color: #f2f2f2;
+				 padding:0 0.32rem;
+				 display:flex;
+				 justify-content:space-between;
+				 align-content: center;
+				 align-items: center;}
+				 
+main section .bottom span{font-size:0.24rem;
+					   color:#b6b6b6;}																													 
